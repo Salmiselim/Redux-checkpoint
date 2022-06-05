@@ -1,6 +1,6 @@
 const initState = [
     { id: 0, description: "coding", done: false },
-    { id: 1, description: "meeting your mom", done: true },
+    { id: 1, description: "meeting my mom", done: true },
   ];
   const Reducer = (state = initState, action) => {
     switch (action.type) {
